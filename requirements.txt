@@ -1,0 +1,25 @@
+# Local RAG Knowledge Assistant — educational dependencies
+# Install with: pip install -r requirements.txt
+#
+# Embeddings + chat both use OpenAI (no Ollama, no torch / transformers).
+# FAISS uses the CPU package. No CUDA / GPU packages required.
+
+
+# Streamlit app
+streamlit>=1.32.0
+python-dotenv>=1.0.0
+
+# LangChain
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+langchain-text-splitters>=0.3.0
+langchain-google-genai>=2.0.0
+
+# FAISS vector database
+faiss-cpu>=1.8.0
+
+# PDF and DOCX document loaders
+pypdf>=4.0.0
+docx2txt>=0.8
+python-docx>=1.1.0
